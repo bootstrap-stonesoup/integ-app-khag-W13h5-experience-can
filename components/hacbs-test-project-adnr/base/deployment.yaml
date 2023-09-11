@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: hacbs-test-project-adnr
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/bootstrap/integration-e2e-tenant/integ-app-khag/hacbs-test-project-adnr@sha256:3dbd955682a254e022081b4339342baf5d8a122fc269bdf75ba1520a51045132
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
